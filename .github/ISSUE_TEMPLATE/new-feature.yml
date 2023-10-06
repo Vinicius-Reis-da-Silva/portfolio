@@ -9,8 +9,9 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: "## Describe the feature"
+      label: "Describe the feature"
       placeholder: A button in the screen X that allows to do Y
+      value: "---"
     validations:
       required: true
   - type: textarea
