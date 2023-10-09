@@ -1,16 +1,16 @@
 name: New feature
-description: Suggest or request a new feature
+description: Sugira ou solicite um nova feature
 labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
       value: |
-        Please fill out the sections below to properly describe the new feature you are suggesting.
+        Preencha as seções abaixo para descrever adequadamente o novo recurso que você está sugerindo.
   - type: textarea
     id: description
     attributes:
-      label: "Describe the feature"
-      placeholder: A button in the screen X that allows to do Y
+      label: "Descreva o recurso"
+      placeholder: Um botão na tela X que permite fazer Y
       value: |
         ---
         1.
@@ -22,28 +22,28 @@ body:
   - type: textarea
     id: rationale
     attributes:
-      label: It should be implemented because
-      placeholder: It will allow to do Y that is needed for Z
+      label: Deve ser implementado porque?
+      placeholder: Isso permitirá fazer Y que é necessário para Z
   - type: textarea
     id: alternatives
     attributes:
-      label: Did you think about any alternative?
-      placeholder: We could do A or B instead
+      label: Você pensou em alguma alternativa?
+      placeholder: Poderíamos fazer A ou B em vez disso
   - type: textarea
     id: context
     attributes:
-      label: Additional context
+      label: Contexto adicional
       placeholder: |
-        Add any other context or screenshots about the feature request here.
+        Adicione qualquer outro contexto ou capturas de tela sobre a solicitação de recurso aqui.
   - type: checkboxes
     id: checks
     attributes:
-      label: Extra fields
+      label: Campos extras
       options:
-        - label: I have used the search function to check if an issue already exists
+        - label: Usei a função de pesquisa para verificar se já existe um problema
           required: true
-        - label: I'd like to work on this issue
+        - label: Eu gostaria de trabalhar neste assunto
   - type: markdown
     attributes:
       value: |
-        Thanks for your suggestion! Let's see together if it can be implemented.
+        Obrigado por sua sugestão! Vamos ver juntos se isso pode ser implementado.
