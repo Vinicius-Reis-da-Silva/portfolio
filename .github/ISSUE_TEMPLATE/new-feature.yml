@@ -9,14 +9,8 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: "Descreva o recurso"
+      label: "Descrição"
       placeholder: Um botão na tela X que permite fazer Y
-      value: |
-        ---
-        1.
-        2.
-        3.
-        ...
     validations:
       required: true
   - type: textarea
@@ -30,9 +24,17 @@ body:
       label: Você pensou em alguma alternativa?
       placeholder: Poderíamos fazer A ou B em vez disso
   - type: textarea
+    id: prerequisite
+    attributes:
+      label: Pré-requisito
+      value: |
+        - [] ...
+        - [] ...
+        - [] ...
+  - type: textarea
     id: context
     attributes:
-      label: Contexto adicional
+      label: Conteúdo adicional
       placeholder: |
         Adicione qualquer outro contexto ou capturas de tela sobre a solicitação de recurso aqui.
   - type: checkboxes
