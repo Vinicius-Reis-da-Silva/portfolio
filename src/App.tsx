@@ -1,15 +1,13 @@
-
 import './App.css'
+import { About } from './page/About';
+import { Home } from './page/Home';
 
 function App() {
 
   return (
     <>
-      <header></header>
-      <main className='bg-gray-500 p-4 rounded-2xl'>
-        <p className='font-bold'>Hello world</p>
-      </main>
-      <footer></footer>
+      <Home />
+      <About />
     </>
   )
 }
