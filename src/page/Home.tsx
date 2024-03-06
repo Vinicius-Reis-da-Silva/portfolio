@@ -40,16 +40,16 @@ export function Home() {
           </ul>
         </nav>
       </header>
-      <main className='flex mt-12 p-4 justify-between items-center '>
+      <main className='flex mt-12 py-4 justify-between items-center '>
         <div className=''>
-          <h1 className='font-bold text-left text-6xl'>
+          <h1 className='text-prussian-900 font-bold text-left text-6xl'>
             Oi 👋,
             <br />
-            Meu nome é
+            Meu nome é&nbsp;
             <strong
-              className='bg-gradient-to-r from-[#13B0F5] to-[#E70FAA] inline-block text-transparent bg-clip-text'
+              className='bg-gradient-to-r from-[#13B0F5] to-[#E70FAA] bg-clip-text inline-block text-transparent'
             >
-              Vinicius Reis
+              Vinicius Reis da Silva
             </strong>
             <br />
             Sou Desenvolvedor Full-Stack

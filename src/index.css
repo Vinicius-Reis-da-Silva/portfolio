@@ -18,6 +18,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/* strong {
+  color: #666666;
+  font-weight: bold;
+} */
+
 /**
 a {
   font-weight: 500;
